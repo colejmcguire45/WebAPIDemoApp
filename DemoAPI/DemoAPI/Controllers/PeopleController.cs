@@ -8,6 +8,9 @@ using System.Web.Http;
 
 namespace DemoAPI.Controllers
 {
+    /// <summary>
+    /// This is where I give you all the information about my peeps
+    /// </summary>
     public class PeopleController : ApiController
     {
         List<Person> people = new List<Person>();
@@ -20,6 +23,10 @@ namespace DemoAPI.Controllers
             people.Add(new Person { FirstName = "Mike", LastName = "Honcho", Id = 4 });
         }
 
+        /// <summary>
+        /// Gets a list of the first names of all users.
+        /// </summary>
+        /// <returns>A list of first names...</returns>
         [Route("api/People/GetFirstNames")]
         [HttpGet]
         public List<string> GetFirstNames() 

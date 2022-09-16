@@ -83,3 +83,4 @@ C:\Users\colemcguire\Documents\Learning\ASP.NET Core MVC\Practice\WebAPIDemoApp\
 C:\Users\colemcguire\Documents\Learning\ASP.NET Core MVC\Practice\WebAPIDemoApp\DemoAPI\DemoAPI\obj\Debug\DemoAPI.csproj.CopyComplete
 C:\Users\colemcguire\Documents\Learning\ASP.NET Core MVC\Practice\WebAPIDemoApp\DemoAPI\DemoAPI\obj\Debug\DemoAPI.dll
 C:\Users\colemcguire\Documents\Learning\ASP.NET Core MVC\Practice\WebAPIDemoApp\DemoAPI\DemoAPI\obj\Debug\DemoAPI.pdb
+C:\Users\colemcguire\Documents\Learning\ASP.NET Core MVC\Practice\WebAPIDemoApp\DemoAPI\DemoAPI\bin\Documentation.xml
