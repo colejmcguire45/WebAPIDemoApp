@@ -20,6 +20,12 @@ namespace DemoAPI.Controllers
             people.Add(new Person { FirstName = "Mike", LastName = "Honcho", Id = 4 });
         }
 
+        [Route("api/People/GetFirstNames")]
+        [HttpGet]
+        public List<string> GetFirstNames() 
+        {
+            return people.Select(p => p.FirstName).ToList();
+        }
 
         // GET: api/People
         public List<Person> Get()
